@@ -1,4 +1,4 @@
-# Web Developer Bootcamp
+# DevBootcamper
 
 > Resources and coursework completed mostly in the [Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) by Colt Steele
 
