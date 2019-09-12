@@ -29,4 +29,5 @@
 "I will not repeat myself"
 ```
 
-- Assignment: [While Loops](src/projects/05-while-loops/while-loops.html)
+- Problem Set: [While Loops](src/projects/05-while-loops/while-loops.html)
+- App: [Car Ride](src/projects/06-car-ride/car-ride.html)
