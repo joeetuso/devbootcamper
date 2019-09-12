@@ -18,8 +18,7 @@
 
 ### Loops
 
-- Slides: [Loops](http://webdev.slides.com/coltsteele/loops-58/fullscreen)
-- <strong>Don't Repeat Yourself</strong>: We want to keep our code as DRY as possible, saving us time and keeping our code clean
+> <em>Don't Repeat Yourself</em>: We want to keep our code as DRY as possible, saving us time and keeping our code clean
 
 ```markdown
 "I will not repeat myself"
@@ -29,5 +28,7 @@
 "I will not repeat myself"
 ```
 
-- Problem Set: [While Loops](src/projects/05-while-loops/while-loops.html)
+- Slides: [While Loops](http://webdev.slides.com/coltsteele/loops-58/fullscreen)
+- Slides: [For Loops](http://webdev.slides.com/coltsteele/loops-18-59/fullscreen)
+- Practice: [While Loops](src/projects/05-while-loops/while-loops.html)
 - App: [Car Ride](src/projects/06-car-ride/car-ride.html)
