@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link href="/src/themes/prism.css" rel="stylesheet" />
+
+    <title>While Loops</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>While Loops</h1>
+      <p>
+        <em
+          >Practice creating
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while"
+            target="_blank"
+            >while</a
+          >
+          loops in JavaScript using the browser console</em
+        >
+      </p>
+      <h2>Problem Set</h2>
+      <ol>
+        <li>
+          Print all numbers between -10 and 19
+        </li>
+        <li>
+          Print all even numbers between 10 and 40
+        </li>
+        <li>
+          Print all odd numbers between 300 and 333
+        </li>
+        <li>
+          Print all numbers divisible by 5 AND 3 between 5 and 50
+        </li>
+      </ol>
+
+      <h2>Solutions</h2>
+
+      <p>Problem #1</p>
+      <pre class="line-numbers">
+        <code class="language-js">var count = 1
+        while (count < 19){
+            console.log('count is: ' + count)
+            count++
+            }</code>
+      </pre>
+
+      <p>Problem #2</p>
+      <pre class="line-numbers">
+        <code class="language-js">var count = 10
+          while (count < 40){
+          console.log('count is: ' + count)
+          count += 2
+        }</code>
+      </pre>
+
+      <p>Problem #3</p>
+      <pre class="line-numbers">
+        <code class="language-js">var count = 301
+          while (count < 334){
+          console.log('count is: ' + count)
+          count += 2
+        }</code>
+      </pre>
+
+      <p>Problem #4</p>
+      <pre class="line-numbers white-space: pre-wrap">
+        <code class="language-js">var count = 5
+        while(count <= 50){
+          if(count % 5 === 0
+          && count % 3 === 0){
+            console.log(count);
+          }
+          count+=1;
+        }</code>
+      </pre>
+
+      <a href="/">&larr; Back to Home</a>
+
+      <script src="./while-loops.js"></script>
+      <script src="/src/themes/prism.js"></script>
+    </div>
+  </body>
+</html>
