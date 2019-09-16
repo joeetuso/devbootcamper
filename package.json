@@ -1,0 +1,30 @@
+{
+  "name": "devbootcamper",
+  "version": "1.0.0",
+  "description": "Resources and completed coursework, mostly written in JavaScript",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephgattuso/devbootcamper.git"
+  },
+  "keywords": [
+    "bootcamp",
+    "javascript"
+  ],
+  "author": "Joseph Gattuso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josephgattuso/devbootcamper/issues"
+  },
+  "homepage": "https://github.com/josephgattuso/devbootcamper#readme"
+}
