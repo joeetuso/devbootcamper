@@ -4,11 +4,11 @@ const age = prompt('Great! What is your current age?');
 
 alert(
   'Nice to meet you,'
-    + firstName
-    + ' '
-    + lastName
-    + '!\n'
-    + 'You are aged '
-    + age
-    + ' years old.',
+  + firstName
+  + ' '
+  + lastName
+  + '!\n'
+  + 'You are aged '
+  + age
+  + ' years old.',
 );
