@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link href="/src/themes/prism.css" rel="stylesheet" />
+
+    <title>Functions</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Functions</h1>
+      <p>
+        <em
+          >Practice creating
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/Function" target="_blank"
+            >functions</a
+          >
+          in JavaScript using the browser console</em
+        >
+      </p>
+      <h2>Problem Set</h2>
+      <ol>
+        <li>
+          Write a function `isEven()` which takes a single numberic argument and rewturns true if
+          the number is even, and false otherwise
+        </li>
+        <li>
+          Write a function `factorial()` which takes a single numeric argument and returns the
+          factorial of that number
+        </li>
+        <li>
+          Write a function `kebabToSnake()` which takes a single kebab-cased string argument and
+          returs the snake_cased version
+        </li>
+      </ol>
+
+      <h2>Solutions</h2>
+
+      <p>Problem #1</p>
+      <pre class="line-numbers">
+        <code class="language-js">function isEven(num){
+          return num % 2 === 0;
+        }</code>
+      </pre>
+
+      <p>Problem #2</p>
+      <pre class="line-numbers">
+        <code class="language-js">function factorial(num) {
+          let result = 1
+          for (let i = 2; i <= num; i++) {
+            result *= i
+          }
+          return result
+        }</code>
+      </pre>
+
+      <p>Problem #3</p>
+      <pre class="line-numbers">
+        <code class="language-js">function kebabToSnake(str) {
+          // replace all '-' with "_"s
+          const newStr = str.replace(/-/g, '_')
+          return newStr
+        }</code>
+              </pre>
+      <a href="/">&larr; Back to Home</a>
+
+      <script src="/src/themes/prism.js"></script>
+      <script src="/src/projects/07-functions/functions.JS"></script>
+    </div>
+  </body>
+</html>
