@@ -1,6 +1,6 @@
 # DevBootcamper
 
-> Resources and my completed coursework from the [Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) by Colt Steele
+> Coursework and notebook for the [Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) by Colt Steele
 
 ## Intro to JavaScript
 
@@ -17,16 +17,6 @@
 - App: [Guess a Number](src/projects/04-guess-number/guess-number.html)
 
 ### Loops
-
-> <em>Don't Repeat Yourself</em>: We want to keep our code as DRY as possible, saving us time and keeping our code clean
-
-```markdown
-"I will not repeat myself"
-"I will not repeat myself"
-"I will not repeat myself"
-"I will not repeat myself"
-"I will not repeat myself"
-```
 
 - Slides: [While Loops](http://webdev.slides.com/coltsteele/loops-58/fullscreen)
 - Slides: [For Loops](http://webdev.slides.com/coltsteele/loops-18-59/fullscreen)
